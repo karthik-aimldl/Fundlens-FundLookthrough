@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: fundscope-browser-only
+    runtime: static
+    buildCommand: echo "No build step: browser-only FundScope"
+    staticPublishPath: .
+    headers:
+      - path: /*
+        name: Content-Security-Policy
+        value: "default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'none'; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'"
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: no-referrer

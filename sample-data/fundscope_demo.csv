@@ -1,0 +1,17 @@
+Parent Fund,Child Fund,Allocation %,Parent Amount,Currency
+Global Investment Portfolio,Global Equity Fund,55,15000000,GBP
+Global Investment Portfolio,Fixed Income Fund,30,15000000,GBP
+Global Investment Portfolio,Alternatives Fund,15,15000000,GBP
+Global Equity Fund,US Equity Fund,60,,GBP
+Global Equity Fund,European Equity Fund,40,,GBP
+US Equity Fund,Apple,35,,GBP
+US Equity Fund,Microsoft,35,,GBP
+US Equity Fund,Nvidia,30,,GBP
+European Equity Fund,Nestle,50,,GBP
+European Equity Fund,ASML,50,,GBP
+Fixed Income Fund,UK Government Bonds,55,,GBP
+Fixed Income Fund,Corporate Bond Fund,45,,GBP
+Corporate Bond Fund,Investment Grade Bonds,70,,GBP
+Corporate Bond Fund,High Yield Bonds,30,,GBP
+Alternatives Fund,Infrastructure,60,,GBP
+Alternatives Fund,Property Fund,40,,GBP
